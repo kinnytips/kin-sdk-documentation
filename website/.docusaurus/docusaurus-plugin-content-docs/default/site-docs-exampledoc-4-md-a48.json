@@ -1,0 +1,21 @@
+{
+  "unversionedId": "doc4",
+  "id": "doc4",
+  "isDocsHomePage": false,
+  "title": "Other Document",
+  "description": "this is another document",
+  "source": "@site/../docs/exampledoc4.md",
+  "sourceDirName": ".",
+  "slug": "/doc4",
+  "permalink": "/docs/doc4",
+  "editUrl": "https://github.com/kinnytips/kin-sdk-documentation/edit/main/website/../docs/exampledoc4.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "doc4",
+    "title": "Other Document"
+  }
+}
