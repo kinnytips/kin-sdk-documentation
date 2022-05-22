@@ -18,5 +18,10 @@
     "id": "doc1",
     "title": "Latin-ish",
     "sidebar_label": "Example Page"
+  },
+  "sidebar": "KinnyClient",
+  "next": {
+    "title": "Example Page",
+    "permalink": "/docs/doc1"
   }
 }

@@ -7,110 +7,20 @@
           "versionLabel": "Next",
           "versionPath": "/docs",
           "tagsPath": "/docs/tags",
-          "versionEditUrl": "https://github.com/kinnytips/kin-sdk-documentation/edit/main/website/../docs",
-          "versionEditUrlLocalized": "https://github.com/kinnytips/kin-sdk-documentation/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
           "versionBadge": false,
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\AMocol\\source\\repos\\kin-sdk-documentation\\website\\sidebars.js",
-          "contentPath": "C:\\Users\\AMocol\\source\\repos\\kin-sdk-documentation\\docs",
+          "contentPath": "C:\\Users\\AMocol\\source\\repos\\kin-sdk-documentation\\website\\docs",
           "contentPathLocalized": "C:\\Users\\AMocol\\source\\repos\\kin-sdk-documentation\\website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "doc1",
           "sidebars": {
-            "KinnyClient": [
+            "defaultSidebar": [
               {
-                "type": "category",
-                "label": "Javascript",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "Dart",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "CLI",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
-              }
-            ],
-            "docs": [
-              {
-                "type": "category",
-                "label": "Overview",
-                "items": [],
-                "collapsed": false,
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "Tutorials",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "See Also",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
-              }
-            ],
-            "guides": [
-              {
-                "type": "category",
-                "label": "Guides",
-                "items": [],
-                "collapsed": false,
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "Database",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "Auth",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
-              }
-            ],
-            "postgresServer": [
-              {
-                "type": "category",
-                "label": "Postgres",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "Self hosting",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
-              }
-            ],
-            "postgresApi": [
-              {
-                "type": "category",
-                "label": "Postgres API",
-                "collapsed": false,
-                "items": [],
-                "collapsible": true
+                "type": "doc",
+                "id": "doc1",
+                "label": "Example Page"
               }
             ]
           },
@@ -121,105 +31,18 @@
               "isDocsHomePage": false,
               "title": "Latin-ish",
               "description": "Check the documentation for how to use Docusaurus.",
-              "source": "@site/../docs/doc1.md",
+              "source": "@site/docs/doc1.md",
               "sourceDirName": ".",
               "slug": "/doc1",
               "permalink": "/docs/doc1",
-              "editUrl": "https://github.com/kinnytips/kin-sdk-documentation/edit/main/website/../docs/doc1.md",
               "tags": [],
               "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "10/14/2018",
               "frontMatter": {
                 "id": "doc1",
                 "title": "Latin-ish",
                 "sidebar_label": "Example Page"
-              }
-            },
-            {
-              "unversionedId": "doc2",
-              "id": "doc2",
-              "isDocsHomePage": false,
-              "title": "document number 2",
-              "description": "This is a link to another document.",
-              "source": "@site/../docs/doc2.md",
-              "sourceDirName": ".",
-              "slug": "/doc2",
-              "permalink": "/docs/doc2",
-              "editUrl": "https://github.com/kinnytips/kin-sdk-documentation/edit/main/website/../docs/doc2.md",
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "10/14/2018",
-              "frontMatter": {
-                "id": "doc2",
-                "title": "document number 2"
-              }
-            },
-            {
-              "unversionedId": "doc3",
-              "id": "doc3",
-              "isDocsHomePage": false,
-              "title": "This is document number 3",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "source": "@site/../docs/doc3.md",
-              "sourceDirName": ".",
-              "slug": "/doc3",
-              "permalink": "/docs/doc3",
-              "editUrl": "https://github.com/kinnytips/kin-sdk-documentation/edit/main/website/../docs/doc3.md",
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "10/14/2018",
-              "frontMatter": {
-                "id": "doc3",
-                "title": "This is document number 3"
-              }
-            },
-            {
-              "unversionedId": "doc4",
-              "id": "doc4",
-              "isDocsHomePage": false,
-              "title": "Other Document",
-              "description": "this is another document",
-              "source": "@site/../docs/exampledoc4.md",
-              "sourceDirName": ".",
-              "slug": "/doc4",
-              "permalink": "/docs/doc4",
-              "editUrl": "https://github.com/kinnytips/kin-sdk-documentation/edit/main/website/../docs/exampledoc4.md",
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "10/14/2018",
-              "frontMatter": {
-                "id": "doc4",
-                "title": "Other Document"
-              }
-            },
-            {
-              "unversionedId": "doc5",
-              "id": "doc5",
-              "isDocsHomePage": false,
-              "title": "Fifth Document",
-              "description": "Another one",
-              "source": "@site/../docs/exampledoc5.md",
-              "sourceDirName": ".",
-              "slug": "/doc5",
-              "permalink": "/docs/doc5",
-              "editUrl": "https://github.com/kinnytips/kin-sdk-documentation/edit/main/website/../docs/exampledoc5.md",
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "10/14/2018",
-              "frontMatter": {
-                "id": "doc5",
-                "title": "Fifth Document"
-              }
+              },
+              "sidebar": "defaultSidebar"
             }
           ]
         }

@@ -7,98 +7,11 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "KinnyClient": [
+    "defaultSidebar": [
       {
-        "type": "category",
-        "label": "Javascript",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
-      },
-      {
-        "type": "category",
-        "label": "Dart",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
-      },
-      {
-        "type": "category",
-        "label": "CLI",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
-      }
-    ],
-    "docs": [
-      {
-        "type": "category",
-        "label": "Overview",
-        "items": [],
-        "collapsed": false,
-        "collapsible": true
-      },
-      {
-        "type": "category",
-        "label": "Tutorials",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
-      },
-      {
-        "type": "category",
-        "label": "See Also",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
-      }
-    ],
-    "guides": [
-      {
-        "type": "category",
-        "label": "Guides",
-        "items": [],
-        "collapsed": false,
-        "collapsible": true
-      },
-      {
-        "type": "category",
-        "label": "Database",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
-      },
-      {
-        "type": "category",
-        "label": "Auth",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
-      }
-    ],
-    "postgresServer": [
-      {
-        "type": "category",
-        "label": "Postgres",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
-      },
-      {
-        "type": "category",
-        "label": "Self hosting",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
-      }
-    ],
-    "postgresApi": [
-      {
-        "type": "category",
-        "label": "Postgres API",
-        "collapsed": false,
-        "items": [],
-        "collapsible": true
+        "type": "link",
+        "label": "Example Page",
+        "href": "/docs/doc1"
       }
     ]
   }

@@ -15,19 +15,25 @@
        type: 'category',
        label: 'Javascript',
        collapsed: false,
-       items: [],
+       items: [
+        'doc1'
+       ],
      },
      {
        type: 'category',
        label: 'Dart',
        collapsed: false,
-       items: [],
+       items: [
+        'doc1'
+       ],
      },
      {
        type: 'category',
        label: 'CLI',
        collapsed: false,
-       items: [],
+       items: [
+        'doc1'
+       ],
      },
    ],
    docs: [
@@ -35,6 +41,7 @@
        type: 'category',
        label: 'Overview',
        items: [
+        'doc1'
        ],
        collapsed: false,
      },
@@ -43,6 +50,7 @@
        label: 'Tutorials',
        collapsed: false,
        items: [
+        'doc1'
        ],
      },
      {
@@ -50,6 +58,7 @@
        label: 'See Also',
        collapsed: false,
        items: [
+        'doc1'
        ],
      },
    ],
@@ -57,7 +66,9 @@
      {
        type: 'category',
        label: 'Guides',
-       items: [],
+       items: [
+        'doc1'
+       ],
        collapsed: false,
      },
      {
@@ -65,6 +76,7 @@
        label: 'Database',
        collapsed: false,
        items: [
+        'doc1'
        ],
      },
      {
@@ -72,30 +84,9 @@
        label: 'Auth',
        collapsed: false,
        items: [
-
+        'doc1'
        ],
      },
    ],
-   postgresServer: [
-     {
-       type: 'category',
-       label: 'Postgres',
-       collapsed: false,
-       items: [],
-     },
-     {
-       type: 'category',
-       label: 'Self hosting',
-       collapsed: false,
-       items: [],
-     },
-   ],
-   postgresApi: [
-     {
-       type: 'category',
-       label: 'Postgres API',
-       collapsed: false,
-       items: [],
-     },
-   ],
+
  }

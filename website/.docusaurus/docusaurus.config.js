@@ -15,14 +15,7 @@ export default {
     [
       "@docusaurus/preset-classic",
       {
-        "docs": {
-          "sidebarCollapsible": true,
-          "editUrl": "https://github.com/kinnytips/kin-sdk-documentation/edit/main/website",
-          "showLastUpdateAuthor": true,
-          "showLastUpdateTime": true,
-          "path": "..\\docs",
-          "sidebarPath": "C:\\Users\\AMocol\\source\\repos\\kin-sdk-documentation\\website\\sidebars.js"
-        },
+        "docs": {},
         "blog": {
           "path": "blog"
         },
@@ -53,18 +46,15 @@ export default {
     },
     "navbar": {
       "title": "Test Site",
-      "logo": {
-        "src": "img/favicon.ico"
-      },
       "items": [
         {
-          "to": "docs/",
+          "to": "/docs/",
           "label": "Docs",
           "position": "left"
         },
         {
-          "to": "docs/doc4",
-          "label": "API",
+          "to": "/blog/",
+          "label": "Blog",
           "position": "left"
         },
         {
@@ -78,7 +68,7 @@ export default {
     "image": "img/undraw_online.svg",
     "footer": {
       "links": [],
-      "copyright": "Copyright © 2021 Kinny.io",
+      "copyright": "Copyright © 2022 Kinny Technologies Inc.",
       "logo": {
         "src": "img/favicon.ico"
       },

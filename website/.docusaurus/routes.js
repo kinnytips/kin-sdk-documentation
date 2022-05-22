@@ -85,32 +85,13 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','f21'),
+    component: ComponentCreator('/docs','9f8'),
     routes: [
       {
         path: '/docs/doc1',
-        component: ComponentCreator('/docs/doc1','ecd'),
-        exact: true
-      },
-      {
-        path: '/docs/doc2',
-        component: ComponentCreator('/docs/doc2','da5'),
-        exact: true
-      },
-      {
-        path: '/docs/doc3',
-        component: ComponentCreator('/docs/doc3','6d6'),
-        exact: true
-      },
-      {
-        path: '/docs/doc4',
-        component: ComponentCreator('/docs/doc4','84b'),
-        exact: true
-      },
-      {
-        path: '/docs/doc5',
-        component: ComponentCreator('/docs/doc5','8da'),
-        exact: true
+        component: ComponentCreator('/docs/doc1','7ad'),
+        exact: true,
+        'sidebar': "defaultSidebar"
       }
     ]
   },

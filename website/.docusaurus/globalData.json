@@ -12,23 +12,8 @@
           "docs": [
             {
               "id": "doc1",
-              "path": "/docs/doc1"
-            },
-            {
-              "id": "doc2",
-              "path": "/docs/doc2"
-            },
-            {
-              "id": "doc3",
-              "path": "/docs/doc3"
-            },
-            {
-              "id": "doc4",
-              "path": "/docs/doc4"
-            },
-            {
-              "id": "doc5",
-              "path": "/docs/doc5"
+              "path": "/docs/doc1",
+              "sidebar": "defaultSidebar"
             }
           ]
         }

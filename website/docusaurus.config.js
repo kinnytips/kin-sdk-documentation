@@ -16,12 +16,12 @@ module.exports={
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarCollapsible: true,
-          editUrl: 'https://github.com/kinnytips/kin-sdk-documentation/edit/main/website',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-          path: '..\\docs',
-          sidebarPath: require.resolve('./sidebars.js')
+          // sidebarCollapsible: true,
+          // editUrl: 'https://github.com/kinnytips/kin-sdk-documentation/edit/main/website',
+          // showLastUpdateAuthor: true,
+          // showLastUpdateTime: true,
+          // path: '..\\docs',
+          // sidebarPath: require.resolve('./sidebars.js')
         },
         blog: {
           path: 'blog'
@@ -36,6 +36,12 @@ module.exports={
   themeConfig: {
     forceDarkMode: true, 
     darkMode: true,
+    // docs: {
+    //   sidebar: {
+    //     hideable: true,
+    //     autoCollapseCategories: true,
+    //   },
+    // },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'dark',
@@ -63,18 +69,18 @@ module.exports={
     },
     navbar: {
       title: 'Test Site',
-      logo: {
-        src: 'img/favicon.ico'
-      },
+      // logo: {
+      //   src: 'img/favicon.ico'
+      // },
       items: [
         {
-          to: 'docs/',
+          to: '/docs/',
           label: 'Docs',
           position: 'left'
         },
         {
-          to: 'docs/doc4',
-          label: 'API',
+          to: '/blog/',
+          label: 'Blog',
           position: 'left'
         },
         {
@@ -87,7 +93,7 @@ module.exports={
     image: 'img/undraw_online.svg',
     footer: {
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} Kinny.io`,
+      copyright: `Copyright © ${new Date().getFullYear()} Kinny Technologies Inc.`,
       logo: {
         src: 'img/favicon.ico'
       }
