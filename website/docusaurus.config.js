@@ -8,7 +8,7 @@ module.exports={
   scripts: [
     'https://buttons.github.io/buttons.js'
   ],
-  deploymentBranch: 'gh-pages',
+  // deploymentBranch: 'gh-pages',
   favicon: 'img/favicon.ico',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'log',
