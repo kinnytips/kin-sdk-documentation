@@ -56,17 +56,17 @@ module.exports={
       respectPrefersColorScheme: false,
 
       // Dark/light switch icon options
-      switchConfig: {
-        // Icon for the switch while in dark mode
-        darkIcon: '  ',
-        darkIconStyle: {
-          marginTop: '1px',
-        },
-        lightIcon: '  ',
-        lightIconStyle: {
-          marginTop: '1px',
-        },
-      },
+      // switchConfig: {
+      //   // Icon for the switch while in dark mode
+      //   darkIcon: '  ',
+      //   darkIconStyle: {
+      //     marginTop: '1px',
+      //   },
+      //   lightIcon: '  ',
+      //   lightIconStyle: {
+      //     marginTop: '1px',
+      //   },
+      // },
     },
     navbar: {
       title: 'Test Site',
