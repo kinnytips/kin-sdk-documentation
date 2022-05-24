@@ -15,9 +15,19 @@
               "path": "/docs/doc1",
               "sidebar": "defaultSidebar"
             }
-          ]
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/docs/doc1",
+                "label": "Example Page"
+              }
+            }
+          }
         }
-      ]
+      ],
+      "breadcrumbs": true
     }
   }
 }
