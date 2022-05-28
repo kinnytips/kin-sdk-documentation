@@ -6,7 +6,8 @@ name: Deploy to Github Pages
 on:
   # Triggers the workflow on push or pull request events
   push:
-    branches: [ gh-pages ]
+    branches: 
+      - main
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
