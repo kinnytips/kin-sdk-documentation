@@ -1,10 +1,11 @@
 module.exports={
   title: 'Kin SDK Dart',
   tagline: 'Easily implement Kin and earn',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://github.com/kinnytips/kin-sdk-documentation',
   baseUrl: '/',
   organizationName: 'Kinny',
   projectName: 'Kin SDK',
+  trailingSlash: false,
   scripts: [
     'https://buttons.github.io/buttons.js'
   ],
@@ -23,6 +24,12 @@ module.exports={
           // showLastUpdateTime: true,
           // path: '..\\docs',
           // sidebarPath: require.resolve('./sidebars.js')
+          path: 'docs',
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/KinnyTips/kin-sdk-documentation/tree/main/website/',
         },
         blog: {
           path: 'blog'
@@ -69,7 +76,7 @@ module.exports={
       // },
     },
     navbar: {
-      title: 'Test Site',
+      title: 'Kin SDK',
       // logo: {
       //   src: 'img/favicon.ico'
       // },
@@ -95,9 +102,9 @@ module.exports={
     footer: {
       links: [],
       copyright: `Copyright © ${new Date().getFullYear()} Kinny Technologies Inc.`,
-      logo: {
-        src: 'img/favicon.ico'
-      }
+      // logo: {
+      //   src: 'img/Kinny.png'
+      // }
     }
   }
 }

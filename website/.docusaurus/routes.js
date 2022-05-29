@@ -74,13 +74,18 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '329'),
+    component: ComponentCreator('/docs', '9b0'),
     routes: [
       {
         path: '/docs/doc1',
-        component: ComponentCreator('/docs/doc1', '7ad'),
+        component: ComponentCreator('/docs/doc1', 'c52'),
         exact: true,
-        sidebar: "defaultSidebar"
+        sidebar: "guides"
+      },
+      {
+        path: '/docs/doc2',
+        component: ComponentCreator('/docs/doc2', 'fd3'),
+        exact: true
       }
     ]
   },

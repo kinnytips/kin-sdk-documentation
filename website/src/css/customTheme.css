@@ -168,11 +168,11 @@
  }
  
  :root[data-theme='dark'] {
-   --custom-primary-darkest: #10633e;
-   --custom-primary-darker: #1c8656;
-   --custom-primary-dark: #38bc81;
+   --custom-primary-darkest: #2B6455;
+   --custom-primary-darker: #4C9A85;
+   --custom-primary-dark: #5728D1;
    --custom-primary: #007bff;
-   --custom-primary-light: #65d9a5;
+   --custom-primary-light: #936BFB;
    --custom-primary-lighter: #9fe7c7;
    --custom-primary-lightest: #c5f1dd;
    --custom-color-subtle: #484848;
@@ -199,9 +199,9 @@
    --ifm-color-gray-400: rgba(224, 235, 247, 0.7);
    --ifm-color-gray-500: rgba(224, 235, 247, 0.65);
    --ifm-color-gray-600: rgba(224, 235, 247, 0.6);
-   --ifm-color-gray-700: rgba(224, 235, 247, 0.55);
-   --ifm-color-gray-800: rgba(224, 235, 247, 0.5);
-   --ifm-color-gray-900: rgba(224, 235, 247, 0.45);
+   --ifm-color-gray-700: rgba(213, 213, 225, 0.55);
+   --ifm-color-gray-800: rgba(154, 154, 164, 0.5);
+   --ifm-color-gray-900: rgba(114, 114, 125, 0.45);
    --ifm-color-secondary-darker: #000;
    --ifm-color-secondary-dark: #1f1f1f;
    --ifm-color-secondary: #2a2a2a;
