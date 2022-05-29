@@ -6,8 +6,8 @@
  */
 
 //  const KinnyClient = require('./sidebar_spec_supabase')
- const KinnyCli = require('./sidebar_spec_cli')
- const dart = require('./sidebar_spec_dart')
+//  const KinnyCli = require('./sidebar_spec_cli')
+//  const dart = require('./sidebar_spec_dart')
  
  module.exports = {
    KinnyClient: [

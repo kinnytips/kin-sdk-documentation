@@ -10,8 +10,11 @@
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/KinnyTips/kin-sdk-documentation/tree/main/website/docs",
+          "editUrlLocalized": "https://github.com/KinnyTips/kin-sdk-documentation/tree/main/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\AMocol\\source\\repos\\kin-sdk-documentation\\website\\sidebars.js",
           "contentPath": "C:\\Users\\AMocol\\source\\repos\\kin-sdk-documentation\\website\\docs",
           "contentPathLocalized": "C:\\Users\\AMocol\\source\\repos\\kin-sdk-documentation\\website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
@@ -25,6 +28,7 @@
               "slug": "/doc1",
               "permalink": "/docs/doc1",
               "draft": false,
+              "editUrl": "https://github.com/KinnyTips/kin-sdk-documentation/tree/main/website/docs/doc1.md",
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -32,16 +36,146 @@
                 "title": "Latin-ish",
                 "sidebar_label": "Example Page"
               },
-              "sidebar": "defaultSidebar"
+              "sidebar": "guides",
+              "next": {
+                "title": "Example Page",
+                "permalink": "/docs/doc1"
+              }
+            },
+            {
+              "unversionedId": "doc2",
+              "id": "doc2",
+              "title": "Latin-ish",
+              "description": "Check the documentation for how to use Docusaurus.",
+              "source": "@site/docs/doc2.md",
+              "sourceDirName": ".",
+              "slug": "/doc2",
+              "permalink": "/docs/doc2",
+              "draft": false,
+              "editUrl": "https://github.com/KinnyTips/kin-sdk-documentation/tree/main/website/docs/doc2.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "doc2",
+                "title": "Latin-ish",
+                "sidebar_label": "Example Page"
+              }
             }
           ],
           "drafts": [],
           "sidebars": {
-            "defaultSidebar": [
+            "KinnyClient": [
               {
-                "type": "doc",
-                "id": "doc1",
-                "label": "Example Page"
+                "type": "category",
+                "label": "Javascript",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  }
+                ],
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Dart",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  }
+                ],
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "CLI",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  }
+                ],
+                "collapsible": true
+              }
+            ],
+            "docs": [
+              {
+                "type": "category",
+                "label": "Overview",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  }
+                ],
+                "collapsed": false,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Tutorials",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  }
+                ],
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "See Also",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  }
+                ],
+                "collapsible": true
+              }
+            ],
+            "guides": [
+              {
+                "type": "category",
+                "label": "Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  }
+                ],
+                "collapsed": false,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Database",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  }
+                ],
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Auth",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  }
+                ],
+                "collapsible": true
               }
             ]
           }

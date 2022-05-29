@@ -118,21 +118,21 @@ const umdExample = `
 
 const features = [
   {
-    title: <>Chat apps</>,
+    title: <>Wallet apps</>,
     imageUrl: '',
-    description: <>Build a realtime chat application using PostgreSQL and Expo</>,
+    description: <>Build a realtime cryptocurrency application using Kin</>,
     href: '/docs/guides/examples',
   },
   {
     title: <>Realtime dashboards</>,
     imageUrl: '',
-    description: <>Build live dashboards using PostgreSQL and D3.js</>,
+    description: <>Build live displays using Kin and Solana blockchain data</>,
     href: '/docs/guides/examples',
   },
   {
-    title: <>Logging</>,
+    title: <>Transaction History</>,
     imageUrl: '',
-    description: <>Log all your database changes to an immutable logging system</>,
+    description: <>Review all </>,
     href: '/docs/guides/examples',
   },
   {
@@ -169,7 +169,7 @@ export default function Home() {
               <div className="col col--5">
                 <h2 className="hero__title">{siteConfig.tagline}</h2>
                 <p className="hero__subtitle">
-                  Kinny adds realtime and restful APIs to Postgres without a single line of code.
+                  Kinny adds realtime access to crytocurrency without burdening the user with fees.
                 </p>
                 <div>
                   <Link
@@ -241,23 +241,23 @@ export default function Home() {
 
             <div className="HowSections row is-multiline">
               <div className={'col col--4 '}>
-                <div>
+                {/* <div>
                   <img
                     className="diagram"
                     src="/img/how-replication.png"
                     alt="Database replication"
                   />
-                </div>
+                </div> */}
                 <div>
                   <HowCard
-                    title="Built with PostgreSQL"
+                    title="Built with Solana"
                     description={
                       <>Sign up and query your Postgres database in less than 2 minutes.</>
                     }
                     featureTitle="You get"
                     features={[
-                      'Full Postgres database',
-                      'Instant RESTful API',
+                      'Full Kin Wallet',
+                      'Easily to implement Kin functions',
                       'Realtime notifications via websockets',
                     ]}
                   />
@@ -265,27 +265,27 @@ export default function Home() {
               </div>
 
               <div className={'col col--4 '}>
-                <div>
+                {/* <div>
                   <img className="diagram" src="/img/how-transformation.png" alt="Kinny" />
-                </div>
+                </div> */}
                 <div>
                   <HowCard
                     title="Kinny handles the magic"
                     description={<>Kinny handles the stuff you're usually too busy to build.</>}
                     featureTitle="You get"
                     features={[
-                      'APIs always in sync with your schema',
-                      'Custom API docs for your schema',
-                      'Built-in security & monitoring',
+                      'Wallet Functions',
+                      'Custom implementations of transactions',
+                      'Built-in transaction monitoring',
                     ]}
                   />
                 </div>
               </div>
 
               <div className={'col col--4 '}>
-                <div>
+                {/* <div>
                   <img className="diagram" src="/img/how-client-libs.png" alt="Client libraries" />
-                </div>
+                </div> */}
                 <div>
                   <HowCard
                     title="Build realtime applications"
@@ -310,9 +310,9 @@ export default function Home() {
               <div className="col col--6 col--offset-3">
                 <h2 className="">For Developers</h2>
                 <p className="">
-                  We introspect your database and provide APIs 
+                  We provide direct interface to the blockchain&nbsp; 
                   <strong className="has-emphasis">instantly</strong> so you can stop building
-                  repetitive CRUD APIs and focus on building your products.
+                  SDKs and focus on building your products.
                 </p>
               </div>
             </div>
@@ -326,7 +326,7 @@ export default function Home() {
                       }`}
                       onClick={() => showCodeExample('READ')}
                     >
-                      Get your data
+                      Get your wallet
                     </button>
                     <button
                       className={`button button--${
@@ -342,7 +342,7 @@ export default function Home() {
                       }`}
                       onClick={() => showCodeExample('CREATE')}
                     >
-                      Create a record
+                      Create a transaction
                     </button>
                     <button
                       className={`button button--${
@@ -350,7 +350,7 @@ export default function Home() {
                       }`}
                       onClick={() => showCodeExample('UPDATE')}
                     >
-                      Update multiple rows
+                      Create Multiple Transactions
                     </button>
                     <button
                       className={`button button--${
@@ -358,16 +358,16 @@ export default function Home() {
                       }`}
                       onClick={() => showCodeExample('NODETS')}
                     >
-                      Node.js & TypeScript support
+                      Create a wallet
                     </button>
-                    <button
+                    {/* <button
                       className={`button button--${
                         visibleCodeExample === 'UMD' ? 'info is-active' : 'info '
                       }`}
                       onClick={() => showCodeExample('UMD')}
                     >
                       Install from CDN
-                    </button>
+                    </button> */}
                   </div>
                 </div>
                 <div className="col col--9 code-with-header">
@@ -420,15 +420,14 @@ export default function Home() {
           <div className="container">
             <div className={clsx('row', styles.centered)}>
               <div className="col col--6 col--offset-3">
-                <h2 className="">Self-documenting</h2>
+                <h2 className="">Start Earning Today</h2>
                 <p className="">
-                  We introspect your database to give you instant, custom documentation for your
-                  REST and Realtime APIs.
+                  With Kin you can earn Rewards just for implementing.  Use our SDK in your app and you immediately begin earning.
                 </p>
               </div>
             </div>
 
-            <div className={clsx('row', styles.centered)}>
+            {/* <div className={clsx('row', styles.centered)}>
               <div className="col">
                 <img
                   className={''}
@@ -436,7 +435,7 @@ export default function Home() {
                   alt={'Self-documenting dashboards'}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
