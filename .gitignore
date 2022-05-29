@@ -105,5 +105,5 @@ dist
 website/i18n/en.json
 
 #Docusaurus builds
-website/build
-website/.docusaurus
+/website/build
+/website/.docusaurus

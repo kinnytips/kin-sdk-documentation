@@ -155,7 +155,7 @@ const features = [
   },
 ]
 
-function Home() {
+export default function Home() {
   const context = useDocusaurusContext()
   const { siteConfig = {} } = context
   const [visibleCodeExample, showCodeExample] = useState('READ')
@@ -196,7 +196,7 @@ function Home() {
               </div>
               <div className="col col--7">
                 <CustomCodeBlock
-                  header="Query your PostgreSQL database and listen in real-time."
+                  header="Easily implement kin and start using cryptocurrency in your app!"
                   js={heroExample}
                 />
               </div>
@@ -214,7 +214,6 @@ function Home() {
             className="container "
             style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
           >
-            <img src="/img/yc-gray.png" alt="Y Combinator" width="50" />
             <p
               style={{
                 fontWeight: 'bold',
@@ -223,7 +222,7 @@ function Home() {
                 display: 'inline-block',
               }}
             >
-              Backed by Y Combinator
+              Created by Kinny Technologies Inc.
             </p>
           </div>
         </section>
@@ -474,28 +473,9 @@ function Home() {
                 </p>
               </div>
             </div>
-
-            <div className="row is-multiline">
-              {repos
-                .filter((x) =>
-                  ['Kinny', 'realtime', 'postgres', 'postgres-meta'].includes(x.name)
-                )
-                .map((props, idx) => (
-                  <div className={'col col--6'} key={idx}>
-                    <GithubCard
-                      key={idx}
-                      title={props.name}
-                      description={props.description}
-                      href={props.html_url}
-                      stars={props.stargazers_count}
-                      handle={props.full_name}
-                    />
-                  </div>
-                ))}
-            </div>
-            <div style={{ textAlign: 'right' }}>
+            {/* <div style={{ textAlign: 'right' }}>
               <a href="/oss">See more →</a>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -555,19 +535,6 @@ function Home() {
               <h2>Get Early Access</h2>
             </div> */}
             <div className="">
-              <a
-                className={clsx('button hero--button button--md responsive-button', styles.button)}
-                href="https://www.producthunt.com/posts/Kinny?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-Kinny"
-                style={{ width: 250, height: 54, margin: 0, padding: 0, display: 'inline-block' }}
-              >
-                <img
-                  src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=203792&theme=dark"
-                  alt="Kinny - An open source Firebase alternative | Product Hunt Embed"
-                  style={{ width: 250, height: 54 }}
-                  width="250px"
-                  height="54px"
-                />
-              </a>
               <Link
                 className={clsx(
                   'button hero--button button--md button--primary responsive-button',
@@ -584,16 +551,4 @@ function Home() {
       </main>
     </Layout>
   )
-}
-
-// export default Home
-export default () => {
-  if (typeof window !== 'undefined') {
-    if (window.location.href.indexOf('localhost') === -1) {
-      window.location.replace('https://Kinny.io')
-    } else {
-      window.location.replace('/docs')
-    }
-  }
-  return null
 }

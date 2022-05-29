@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
- const KinnyClient = require('./sidebar_spec_supabase')
+//  const KinnyClient = require('./sidebar_spec_supabase')
  const KinnyCli = require('./sidebar_spec_cli')
  const dart = require('./sidebar_spec_dart')
  

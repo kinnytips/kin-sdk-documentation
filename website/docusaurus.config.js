@@ -1,6 +1,6 @@
 module.exports={
   title: 'Kin SDK Dart',
-  tagline: 'A website for testing',
+  tagline: 'Easily implement Kin and earn',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   organizationName: 'Kinny',

@@ -7,7 +7,7 @@ export default {
   "title": "Kin SDK Dart",
   "tagline": "A website for testing",
   "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
+  "baseUrl": "/docs/",
   "organizationName": "Kinny",
   "projectName": "Kin SDK",
   "scripts": [
