@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Kin SDK Dart Blog</title>
-        <link>https://github.com/kinnytips/kin-sdk-documentation/blog</link>
+        <link>https://github.com/kinnytips/kin-sdk-documentation/kin-sdk-documentation/blog</link>
         <description>Kin SDK Dart Blog</description>
         <lastBuildDate>Tue, 24 Oct 2017 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[New Version 1.0.0]]></title>
-            <link>https://github.com/kinnytips/kin-sdk-documentation/blog/2017/10/24/new-version-1.0.0</link>
+            <link>https://github.com/kinnytips/kin-sdk-documentation/kin-sdk-documentation/blog/2017/10/24/new-version-1.0.0</link>
             <guid>/2017/10/24/new-version-1.0.0</guid>
             <pubDate>Tue, 24 Oct 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[This blog post will test file name parsing issues when periods are present.]]></description>
@@ -18,7 +18,7 @@
         </item>
         <item>
             <title><![CDATA[Adding RSS Support - RSS Truncation Test]]></title>
-            <link>https://github.com/kinnytips/kin-sdk-documentation/blog/2017/09/26/adding-rss</link>
+            <link>https://github.com/kinnytips/kin-sdk-documentation/kin-sdk-documentation/blog/2017/09/26/adding-rss</link>
             <guid>/2017/09/26/adding-rss</guid>
             <pubDate>Tue, 26 Sep 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890]]></description>
@@ -26,7 +26,7 @@
         </item>
         <item>
             <title><![CDATA[Adding RSS Support - RSS Truncation Test]]></title>
-            <link>https://github.com/kinnytips/kin-sdk-documentation/blog/2017/09/25/testing-rss</link>
+            <link>https://github.com/kinnytips/kin-sdk-documentation/kin-sdk-documentation/blog/2017/09/25/testing-rss</link>
             <guid>/2017/09/25/testing-rss</guid>
             <pubDate>Mon, 25 Sep 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890]]></description>
@@ -34,7 +34,7 @@
         </item>
         <item>
             <title><![CDATA[New Blog Post]]></title>
-            <link>https://github.com/kinnytips/kin-sdk-documentation/blog/2017/04/10/blog-post-two</link>
+            <link>https://github.com/kinnytips/kin-sdk-documentation/kin-sdk-documentation/blog/2017/04/10/blog-post-two</link>
             <guid>/2017/04/10/blog-post-two</guid>
             <pubDate>Mon, 10 Apr 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.]]></description>
@@ -42,7 +42,7 @@
         </item>
         <item>
             <title><![CDATA[Blog Title]]></title>
-            <link>https://github.com/kinnytips/kin-sdk-documentation/blog/2016/03/11/blog-post</link>
+            <link>https://github.com/kinnytips/kin-sdk-documentation/kin-sdk-documentation/blog/2016/03/11/blog-post</link>
             <guid>/2016/03/11/blog-post</guid>
             <pubDate>Fri, 11 Mar 2016 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.]]></description>
