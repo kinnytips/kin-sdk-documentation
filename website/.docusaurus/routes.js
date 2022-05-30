@@ -3,95 +3,95 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '31a'),
+    path: '/kin-sdk-documentation/__docusaurus/debug',
+    component: ComponentCreator('/kin-sdk-documentation/__docusaurus/debug', '2c9'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '8da'),
+    path: '/kin-sdk-documentation/__docusaurus/debug/config',
+    component: ComponentCreator('/kin-sdk-documentation/__docusaurus/debug/config', '8d1'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'ab9'),
+    path: '/kin-sdk-documentation/__docusaurus/debug/content',
+    component: ComponentCreator('/kin-sdk-documentation/__docusaurus/debug/content', 'd67'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'ffa'),
+    path: '/kin-sdk-documentation/__docusaurus/debug/globalData',
+    component: ComponentCreator('/kin-sdk-documentation/__docusaurus/debug/globalData', 'aed'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ef2'),
+    path: '/kin-sdk-documentation/__docusaurus/debug/metadata',
+    component: ComponentCreator('/kin-sdk-documentation/__docusaurus/debug/metadata', '7c5'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '783'),
+    path: '/kin-sdk-documentation/__docusaurus/debug/registry',
+    component: ComponentCreator('/kin-sdk-documentation/__docusaurus/debug/registry', '750'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '468'),
+    path: '/kin-sdk-documentation/__docusaurus/debug/routes',
+    component: ComponentCreator('/kin-sdk-documentation/__docusaurus/debug/routes', 'a42'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '772'),
+    path: '/kin-sdk-documentation/blog',
+    component: ComponentCreator('/kin-sdk-documentation/blog', '84e'),
     exact: true
   },
   {
-    path: '/blog/2016/03/11/blog-post',
-    component: ComponentCreator('/blog/2016/03/11/blog-post', '35f'),
+    path: '/kin-sdk-documentation/blog/2016/03/11/blog-post',
+    component: ComponentCreator('/kin-sdk-documentation/blog/2016/03/11/blog-post', '908'),
     exact: true
   },
   {
-    path: '/blog/2017/04/10/blog-post-two',
-    component: ComponentCreator('/blog/2017/04/10/blog-post-two', 'bf2'),
+    path: '/kin-sdk-documentation/blog/2017/04/10/blog-post-two',
+    component: ComponentCreator('/kin-sdk-documentation/blog/2017/04/10/blog-post-two', '7ba'),
     exact: true
   },
   {
-    path: '/blog/2017/09/25/testing-rss',
-    component: ComponentCreator('/blog/2017/09/25/testing-rss', '466'),
+    path: '/kin-sdk-documentation/blog/2017/09/25/testing-rss',
+    component: ComponentCreator('/kin-sdk-documentation/blog/2017/09/25/testing-rss', '8e8'),
     exact: true
   },
   {
-    path: '/blog/2017/09/26/adding-rss',
-    component: ComponentCreator('/blog/2017/09/26/adding-rss', '721'),
+    path: '/kin-sdk-documentation/blog/2017/09/26/adding-rss',
+    component: ComponentCreator('/kin-sdk-documentation/blog/2017/09/26/adding-rss', '344'),
     exact: true
   },
   {
-    path: '/blog/2017/10/24/new-version-1.0.0',
-    component: ComponentCreator('/blog/2017/10/24/new-version-1.0.0', '57b'),
+    path: '/kin-sdk-documentation/blog/2017/10/24/new-version-1.0.0',
+    component: ComponentCreator('/kin-sdk-documentation/blog/2017/10/24/new-version-1.0.0', 'f65'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'f18'),
+    path: '/kin-sdk-documentation/blog/archive',
+    component: ComponentCreator('/kin-sdk-documentation/blog/archive', 'd56'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '9b0'),
+    path: '/kin-sdk-documentation/docs',
+    component: ComponentCreator('/kin-sdk-documentation/docs', 'a37'),
     routes: [
       {
-        path: '/docs/doc1',
-        component: ComponentCreator('/docs/doc1', 'c52'),
+        path: '/kin-sdk-documentation/docs/doc1',
+        component: ComponentCreator('/kin-sdk-documentation/docs/doc1', 'b41'),
         exact: true,
         sidebar: "guides"
       },
       {
-        path: '/docs/doc2',
-        component: ComponentCreator('/docs/doc2', 'fd3'),
+        path: '/kin-sdk-documentation/docs/doc2',
+        component: ComponentCreator('/kin-sdk-documentation/docs/doc2', '044'),
         exact: true
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'c88'),
+    path: '/kin-sdk-documentation/',
+    component: ComponentCreator('/kin-sdk-documentation/', 'e72'),
     exact: true
   },
   {

@@ -1,48 +1,48 @@
 {
-  "/__docusaurus/debug-31a": {
+  "/kin-sdk-documentation/__docusaurus/debug-2c9": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
       "plugin": "plugin---docusaurus-debug-6-dd-16b"
     }
   },
-  "/__docusaurus/debug/config-8da": {
+  "/kin-sdk-documentation/__docusaurus/debug/config-8d1": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
       "plugin": "plugin---docusaurus-debug-6-dd-16b"
     }
   },
-  "/__docusaurus/debug/content-ab9": {
+  "/kin-sdk-documentation/__docusaurus/debug/content-d67": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
       "plugin": "plugin---docusaurus-debug-6-dd-16b"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-ffa": {
+  "/kin-sdk-documentation/__docusaurus/debug/globalData-aed": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
       "plugin": "plugin---docusaurus-debug-6-dd-16b"
     }
   },
-  "/__docusaurus/debug/metadata-ef2": {
+  "/kin-sdk-documentation/__docusaurus/debug/metadata-7c5": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
       "plugin": "plugin---docusaurus-debug-6-dd-16b"
     }
   },
-  "/__docusaurus/debug/registry-783": {
+  "/kin-sdk-documentation/__docusaurus/debug/registry-750": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
       "plugin": "plugin---docusaurus-debug-6-dd-16b"
     }
   },
-  "/__docusaurus/debug/routes-468": {
+  "/kin-sdk-documentation/__docusaurus/debug/routes-a42": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
       "plugin": "plugin---docusaurus-debug-6-dd-16b"
     }
   },
-  "/blog-772": {
+  "/kin-sdk-documentation/blog-84e": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-479-c0e"
@@ -65,9 +65,9 @@
         "content": "content---blog-025-31a"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "metadata---kin-sdk-documentation-blog-1-a-6-ccb"
   },
-  "/blog/2016/03/11/blog-post-35f": {
+  "/kin-sdk-documentation/blog/2016/03/11/blog-post-908": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---blog-479-c0e"
@@ -75,7 +75,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-2016-03-11-blog-postbf-9-764"
   },
-  "/blog/2017/04/10/blog-post-two-bf2": {
+  "/kin-sdk-documentation/blog/2017/04/10/blog-post-two-7ba": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---blog-479-c0e"
@@ -83,7 +83,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-2017-04-10-blog-post-twodfa-94f"
   },
-  "/blog/2017/09/25/testing-rss-466": {
+  "/kin-sdk-documentation/blog/2017/09/25/testing-rss-8e8": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---blog-479-c0e"
@@ -91,7 +91,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-2017-09-25-testing-rss-4-d-8-00d"
   },
-  "/blog/2017/09/26/adding-rss-721": {
+  "/kin-sdk-documentation/blog/2017/09/26/adding-rss-344": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---blog-479-c0e"
@@ -99,7 +99,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-2017-09-26-adding-rssad-7-946"
   },
-  "/blog/2017/10/24/new-version-1.0.0-57b": {
+  "/kin-sdk-documentation/blog/2017/10/24/new-version-1.0.0-f65": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---blog-479-c0e"
@@ -107,29 +107,29 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-2017-10-24-new-version-1-0-0-bbb-777"
   },
-  "/blog/archive-f18": {
+  "/kin-sdk-documentation/blog/archive-d56": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
       "plugin": "plugin---blog-479-c0e"
     },
-    "archive": "archive---blog-archiveb-2-f-393"
+    "archive": "archive---kin-sdk-documentation-blog-archive-26-f-721"
   },
-  "/docs-9b0": {
+  "/kin-sdk-documentation/docs-a37": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-45-c-b7d"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/doc1-c52": {
+  "/kin-sdk-documentation/docs/doc1-b41": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-doc-1-b-2-f-e80"
   },
-  "/docs/doc2-fd3": {
+  "/kin-sdk-documentation/docs/doc2-044": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-doc-2-df-3-eaa"
   },
-  "/-c88": {
+  "/kin-sdk-documentation/-e72": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
       "plugin": "plugin---6-c-8-cea"
