@@ -8,8 +8,8 @@
           "banner": null,
           "badge": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
+          "path": "/kin-sdk-documentation/docs",
+          "tagsPath": "/kin-sdk-documentation/docs/tags",
           "editUrl": "https://github.com/KinnyTips/kin-sdk-documentation/tree/main/website/docs",
           "editUrlLocalized": "https://github.com/KinnyTips/kin-sdk-documentation/tree/main/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
@@ -26,7 +26,7 @@
               "source": "@site/docs/doc1.md",
               "sourceDirName": ".",
               "slug": "/doc1",
-              "permalink": "/docs/doc1",
+              "permalink": "/kin-sdk-documentation/docs/doc1",
               "draft": false,
               "editUrl": "https://github.com/KinnyTips/kin-sdk-documentation/tree/main/website/docs/doc1.md",
               "tags": [],
@@ -39,7 +39,7 @@
               "sidebar": "guides",
               "next": {
                 "title": "Example Page",
-                "permalink": "/docs/doc1"
+                "permalink": "/kin-sdk-documentation/docs/doc1"
               }
             },
             {
@@ -50,7 +50,7 @@
               "source": "@site/docs/doc2.md",
               "sourceDirName": ".",
               "slug": "/doc2",
-              "permalink": "/docs/doc2",
+              "permalink": "/kin-sdk-documentation/docs/doc2",
               "draft": false,
               "editUrl": "https://github.com/KinnyTips/kin-sdk-documentation/tree/main/website/docs/doc2.md",
               "tags": [],
@@ -190,7 +190,7 @@
         {
           "id": "/2017/10/24/new-version-1.0.0",
           "metadata": {
-            "permalink": "/blog/2017/10/24/new-version-1.0.0",
+            "permalink": "/kin-sdk-documentation/blog/2017/10/24/new-version-1.0.0",
             "source": "@site/blog/2017-10-24-new-version-1.0.0.md",
             "title": "New Version 1.0.0",
             "description": "This blog post will test file name parsing issues when periods are present.",
@@ -213,7 +213,7 @@
             },
             "nextItem": {
               "title": "Adding RSS Support - RSS Truncation Test",
-              "permalink": "/blog/2017/09/26/adding-rss"
+              "permalink": "/kin-sdk-documentation/blog/2017/09/26/adding-rss"
             }
           },
           "content": "This blog post will test file name parsing issues when periods are present."
@@ -221,7 +221,7 @@
         {
           "id": "/2017/09/26/adding-rss",
           "metadata": {
-            "permalink": "/blog/2017/09/26/adding-rss",
+            "permalink": "/kin-sdk-documentation/blog/2017/09/26/adding-rss",
             "source": "@site/blog/2017-09-26-adding-rss.md",
             "title": "Adding RSS Support - RSS Truncation Test",
             "description": "1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890",
@@ -244,11 +244,11 @@
             },
             "prevItem": {
               "title": "New Version 1.0.0",
-              "permalink": "/blog/2017/10/24/new-version-1.0.0"
+              "permalink": "/kin-sdk-documentation/blog/2017/10/24/new-version-1.0.0"
             },
             "nextItem": {
               "title": "Adding RSS Support - RSS Truncation Test",
-              "permalink": "/blog/2017/09/25/testing-rss"
+              "permalink": "/kin-sdk-documentation/blog/2017/09/25/testing-rss"
             }
           },
           "content": "1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890\r\n\r\nThis should be truncated.\r\n\r\n<!--truncate-->\r\n\r\nThis line should never render in XML."
@@ -256,7 +256,7 @@
         {
           "id": "/2017/09/25/testing-rss",
           "metadata": {
-            "permalink": "/blog/2017/09/25/testing-rss",
+            "permalink": "/kin-sdk-documentation/blog/2017/09/25/testing-rss",
             "source": "@site/blog/2017-09-25-testing-rss.md",
             "title": "Adding RSS Support - RSS Truncation Test",
             "description": "1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890",
@@ -279,11 +279,11 @@
             },
             "prevItem": {
               "title": "Adding RSS Support - RSS Truncation Test",
-              "permalink": "/blog/2017/09/26/adding-rss"
+              "permalink": "/kin-sdk-documentation/blog/2017/09/26/adding-rss"
             },
             "nextItem": {
               "title": "New Blog Post",
-              "permalink": "/blog/2017/04/10/blog-post-two"
+              "permalink": "/kin-sdk-documentation/blog/2017/04/10/blog-post-two"
             }
           },
           "content": "1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890\r\n\r\nThis should be truncated.\r\n\r\n<!--truncate-->\r\n\r\nThis line should never render in XML."
@@ -291,7 +291,7 @@
         {
           "id": "/2017/04/10/blog-post-two",
           "metadata": {
-            "permalink": "/blog/2017/04/10/blog-post-two",
+            "permalink": "/kin-sdk-documentation/blog/2017/04/10/blog-post-two",
             "source": "@site/blog/2017-04-10-blog-post-two.md",
             "title": "New Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.",
@@ -314,11 +314,11 @@
             },
             "prevItem": {
               "title": "Adding RSS Support - RSS Truncation Test",
-              "permalink": "/blog/2017/09/25/testing-rss"
+              "permalink": "/kin-sdk-documentation/blog/2017/09/25/testing-rss"
             },
             "nextItem": {
               "title": "Blog Title",
-              "permalink": "/blog/2016/03/11/blog-post"
+              "permalink": "/kin-sdk-documentation/blog/2016/03/11/blog-post"
             }
           },
           "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.\r\n\r\n<!--truncate-->\r\n\r\nMauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.\r\n\r\nNulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.\r\n\r\nOrci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.\r\n\r\nPhasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis."
@@ -326,7 +326,7 @@
         {
           "id": "/2016/03/11/blog-post",
           "metadata": {
-            "permalink": "/blog/2016/03/11/blog-post",
+            "permalink": "/kin-sdk-documentation/blog/2016/03/11/blog-post",
             "source": "@site/blog/2016-03-11-blog-post.md",
             "title": "Blog Title",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.",
@@ -349,7 +349,7 @@
             },
             "prevItem": {
               "title": "New Blog Post",
-              "permalink": "/blog/2017/04/10/blog-post-two"
+              "permalink": "/kin-sdk-documentation/blog/2017/04/10/blog-post-two"
             }
           },
           "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.\r\n\r\n<!--truncate-->\r\n\r\nMauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.\r\n\r\nNulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.\r\n\r\nOrci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.\r\n\r\nPhasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis."
@@ -365,7 +365,7 @@
             "/2016/03/11/blog-post"
           ],
           "metadata": {
-            "permalink": "/blog",
+            "permalink": "/kin-sdk-documentation/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -376,14 +376,14 @@
         }
       ],
       "blogTags": {},
-      "blogTagsListPath": "/blog/tags"
+      "blogTagsListPath": "/kin-sdk-documentation/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/kin-sdk-documentation/",
         "source": "@site/src/pages/index.js"
       }
     ]

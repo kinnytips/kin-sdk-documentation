@@ -2,7 +2,7 @@ module.exports={
   title: 'Kin SDK Dart',
   tagline: 'Easily implement Kin and earn',
   url: 'https://github.com/kinnytips/kin-sdk-documentation',
-  baseUrl: '/',
+  baseUrl: '/kin-sdk-documentation/',
   organizationName: 'Kinny',
   projectName: 'Kin SDK',
   trailingSlash: false,
